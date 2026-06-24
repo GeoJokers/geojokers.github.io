@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GeoJokers Logo – Variant 10: Low-Poly Vectorised Globe -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <clipPath id="v10clip">
+      <circle cx="200" cy="195" r="178"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base circle (fills any gaps) -->
+  <circle cx="200" cy="195" r="178" fill="#1E3A5F"/>
+
+  <!-- Low-poly triangles – clipped to circle -->
+  <!-- Colors follow the original: oranges upper-left, teal/green center,
+       yellow-green upper-right, blue/indigo left, amber lower-right,
+       dark-teal/navy lower-left. -->
+  <g clip-path="url(#v10clip)">
+    <!-- TOP CAP -->
+    <polygon points="200,17 130,62 200,78"  fill="#F97316"/>
+    <polygon points="200,17 200,78 270,62"  fill="#EAB308"/>
+
+    <!-- UPPER LEFT BAND -->
+    <polygon points="46,95  130,62  78,148"  fill="#2563EB"/>
+    <polygon points="130,62  78,148 158,138" fill="#0EA5E9"/>
+    <polygon points="130,62 200,78  158,138" fill="#F59E0B"/>
+
+    <!-- UPPER RIGHT BAND -->
+    <polygon points="354,95 270,62 322,148"  fill="#EA580C"/>
+    <polygon points="270,62 322,148 242,138" fill="#84CC16"/>
+    <polygon points="270,62 200,78  242,138" fill="#10B981"/>
+
+    <!-- UPPER-CENTER -->
+    <polygon points="158,138 200,78  242,138" fill="#A3E635"/>
+    <polygon points="200,78  242,138 200,152" fill="#22C55E"/>
+    <polygon points="200,78  158,138 200,152" fill="#F59E0B"/>
+
+    <!-- MID-LEFT -->
+    <polygon points="22,195  46,95   78,148" fill="#1D4ED8"/>
+    <polygon points="22,195  78,148 102,192" fill="#1E3A8A"/>
+    <polygon points="78,148 158,138 118,192" fill="#06B6D4"/>
+    <polygon points="102,192  78,148 118,192" fill="#0284C7"/>
+
+    <!-- MID-CENTER-LEFT -->
+    <polygon points="118,192 158,138 155,220" fill="#14B8A6"/>
+    <polygon points="158,138 200,152 178,222" fill="#059669"/>
+    <polygon points="155,220 158,138 178,222" fill="#0D9488"/>
+
+    <!-- MID-CENTER -->
+    <polygon points="200,152 242,138 200,222" fill="#10B981"/>
+    <polygon points="178,222 200,152 200,222" fill="#34D399"/>
+
+    <!-- MID-CENTER-RIGHT -->
+    <polygon points="242,138 322,148 245,220" fill="#F59E0B"/>
+    <polygon points="322,148 282,192 245,220" fill="#FBBF24"/>
+    <polygon points="200,222 242,138 245,220" fill="#84CC16"/>
+
+    <!-- MID-RIGHT -->
+    <polygon points="322,148 354,95 378,195" fill="#FB923C"/>
+    <polygon points="322,148 378,195 298,192" fill="#F97316"/>
+    <polygon points="282,192 298,192 245,220" fill="#EAB308"/>
+
+    <!-- LOWER-LEFT BAND -->
+    <polygon points="22,195 102,192  62,255" fill="#1E3A5F"/>
+    <polygon points="102,192 118,192 105,258" fill="#1D4ED8"/>
+    <polygon points="118,192 155,220 138,265" fill="#0369A1"/>
+
+    <!-- LOWER-CENTER-LEFT -->
+    <polygon points="155,220 178,222 162,275" fill="#0891B2"/>
+    <polygon points="178,222 200,222 185,278" fill="#0E7490"/>
+
+    <!-- LOWER-CENTER -->
+    <polygon points="200,222 245,220 200,285" fill="#0F766E"/>
+    <polygon points="185,278 200,222 200,285" fill="#134E4A"/>
+
+    <!-- LOWER-CENTER-RIGHT -->
+    <polygon points="245,220 282,192 252,268" fill="#D97706"/>
+    <polygon points="252,268 245,220 200,285" fill="#B45309"/>
+
+    <!-- LOWER-RIGHT BAND -->
+    <polygon points="298,192 378,195 322,262" fill="#EA580C"/>
+    <polygon points="282,192 298,192 262,260" fill="#C2410C"/>
+    <polygon points="252,268 262,260 222,310" fill="#92400E"/>
+
+    <!-- LOWER BAND -->
+    <polygon points="62,255  105,258 78,315"  fill="#1E3A5F"/>
+    <polygon points="105,258 138,265 115,318" fill="#0C4A6E"/>
+    <polygon points="138,265 162,275 148,322" fill="#164E63"/>
+    <polygon points="162,275 185,278 170,330" fill="#115E59"/>
+    <polygon points="185,278 200,285 185,340" fill="#134E4A"/>
+    <polygon points="200,285 222,310 200,345" fill="#0F766E"/>
+    <polygon points="222,310 252,268 238,325" fill="#78350F"/>
+    <polygon points="252,268 322,262 278,325" fill="#9A3412"/>
+    <polygon points="322,262 378,195 354,295" fill="#C2410C"/>
+
+    <!-- BOTTOM CAP -->
+    <polygon points="78,315  115,318 95,360"  fill="#1E3A5F"/>
+    <polygon points="115,318 148,322 130,365" fill="#0C4A6E"/>
+    <polygon points="148,322 170,330 162,368" fill="#0F766E"/>
+    <polygon points="170,330 185,340 180,372" fill="#134E4A"/>
+    <polygon points="185,340 200,345 200,373" fill="#0D9488"/>
+    <polygon points="200,345 238,325 218,372" fill="#7C3AED"/>
+    <polygon points="238,325 278,325 258,368" fill="#92400E"/>
+    <polygon points="278,325 354,295 310,360" fill="#B45309"/>
+  </g>
+
+  <!-- Circle border for crispness -->
+  <circle cx="200" cy="195" r="178" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+
+  <!-- Jester silhouette – white -->
+  <g fill="white" clip-path="url(#v10clip)">
+    <!-- Juggling balls -->
+    <rect x="164" y="34" width="14" height="14" rx="4"/>
+    <rect x="183" y="22" width="16" height="16" rx="5"/>
+    <rect x="204" y="30" width="14" height="14" rx="4"/>
+    <rect x="152" y="27" width="13" height="13" rx="4"/>
+    <rect x="218" y="25" width="13" height="13" rx="4"/>
+    <!-- Hat bells -->
+    <circle cx="158" cy="76" r="17"/>
+    <circle cx="242" cy="76" r="17"/>
+    <!-- Hat horns -->
+    <path d="M175 108 Q169 95 161 83 Q154 73 158 68 Q165 64 169 80 Q172 95 177 106 Z"/>
+    <path d="M225 108 Q231 95 239 83 Q246 73 242 68 Q235 64 231 80 Q228 95 223 106 Z"/>
+    <!-- Head -->
+    <circle cx="200" cy="124" r="29"/>
+    <!-- Body -->
+    <path d="M175 155 Q196 150 225 155 Q240 198 237 250 Q222 268 200 268 Q178 268 163 250 Q160 198 175 155 Z"/>
+    <!-- Left arm & hand -->
+    <path d="M176 170 Q157 160 140 147 Q133 140 137 132 Q143 126 152 134 Q166 147 178 163 Z"/>
+    <circle cx="136" cy="132" r="12"/>
+    <!-- Right arm & hand -->
+    <path d="M224 170 Q243 160 260 147 Q267 140 263 132 Q257 126 248 134 Q234 147 222 163 Z"/>
+    <circle cx="264" cy="132" r="12"/>
+    <!-- Left leg & shoe -->
+    <path d="M184 268 Q177 295 174 312 Q171 323 181 326 Q193 329 195 314 Q196 298 191 280 Z"/>
+    <path d="M171 322 Q157 332 163 342 Q172 349 182 339 Q185 332 178 326 Z"/>
+    <!-- Right leg & shoe -->
+    <path d="M216 268 Q223 295 226 312 Q229 323 219 326 Q207 329 205 314 Q204 298 209 280 Z"/>
+    <path d="M229 322 Q243 332 237 342 Q228 349 218 339 Q215 332 222 326 Z"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="200" y="450"
+    text-anchor="middle"
+    font-family="'Century Gothic','Futura','Trebuchet MS',sans-serif"
+    font-weight="300"
+    font-size="44"
+    letter-spacing="7"
+    fill="#1a1a1a">GEO JOKERS</text>
+</svg>

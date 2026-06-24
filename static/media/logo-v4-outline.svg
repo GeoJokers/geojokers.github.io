@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GeoJokers Logo – Variant 4: Line Art / Outline Style -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+
+  <!-- White background -->
+  <rect width="400" height="520" fill="white"/>
+
+  <!-- Circle outline -->
+  <circle cx="200" cy="195" r="176" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+
+  <!-- Jester – outlined, no fill, multi-weight strokes -->
+  <g fill="none" stroke="#1a1a1a" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Juggling balls – thin outline -->
+    <rect x="164" y="34" width="14" height="14" rx="4" stroke-width="2.5"/>
+    <rect x="183" y="22" width="16" height="16" rx="5" stroke-width="2.5"/>
+    <rect x="204" y="30" width="14" height="14" rx="4" stroke-width="2.5"/>
+    <rect x="152" y="27" width="13" height="13" rx="4" stroke-width="2"/>
+    <rect x="218" y="25" width="13" height="13" rx="4" stroke-width="2"/>
+    <!-- Hat bells -->
+    <circle cx="158" cy="76" r="17" stroke-width="3"/>
+    <circle cx="242" cy="76" r="17" stroke-width="3"/>
+    <!-- Hat horns -->
+    <path d="M175 108 Q169 95 161 83 Q154 73 158 68 Q165 64 169 80 Q172 95 177 106 Z" stroke-width="2.5"/>
+    <path d="M225 108 Q231 95 239 83 Q246 73 242 68 Q235 64 231 80 Q228 95 223 106 Z" stroke-width="2.5"/>
+    <!-- Head -->
+    <circle cx="200" cy="124" r="29" stroke-width="3"/>
+    <!-- Body -->
+    <path d="M175 155 Q196 150 225 155 Q240 198 237 250 Q222 268 200 268 Q178 268 163 250 Q160 198 175 155 Z" stroke-width="3"/>
+    <!-- Left arm & hand -->
+    <path d="M176 170 Q157 160 140 147 Q133 140 137 132 Q143 126 152 134 Q166 147 178 163 Z" stroke-width="2.5"/>
+    <circle cx="136" cy="132" r="12" stroke-width="3"/>
+    <!-- Right arm & hand -->
+    <path d="M224 170 Q243 160 260 147 Q267 140 263 132 Q257 126 248 134 Q234 147 222 163 Z" stroke-width="2.5"/>
+    <circle cx="264" cy="132" r="12" stroke-width="3"/>
+    <!-- Left leg & shoe -->
+    <path d="M184 268 Q177 295 174 312 Q171 323 181 326 Q193 329 195 314 Q196 298 191 280 Z" stroke-width="2.5"/>
+    <path d="M171 322 Q157 332 163 342 Q172 349 182 339 Q185 332 178 326 Z" stroke-width="2.5"/>
+    <!-- Right leg & shoe -->
+    <path d="M216 268 Q223 295 226 312 Q229 323 219 326 Q207 329 205 314 Q204 298 209 280 Z" stroke-width="2.5"/>
+    <path d="M229 322 Q243 332 237 342 Q228 349 218 339 Q215 332 222 326 Z" stroke-width="2.5"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="200" y="450"
+    text-anchor="middle"
+    font-family="'Century Gothic','Futura','Trebuchet MS',sans-serif"
+    font-weight="300"
+    font-size="44"
+    letter-spacing="7"
+    fill="#1a1a1a">GEO JOKERS</text>
+</svg>
